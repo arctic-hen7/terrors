@@ -10,10 +10,12 @@ pub struct ReadmeDoctests;
 
 mod one_of;
 mod one_of_to_enum;
+mod result;
 mod type_set;
 
 /// Similar to anonymous unions / enums in languages that support type narrowing.
 pub use one_of::OneOf;
+pub use result::OneOfResult;
 
 pub use type_set::{E1, E2, E3, E4, E5, E6, E7, E8, E9};
 
